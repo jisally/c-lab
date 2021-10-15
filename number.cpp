@@ -2,13 +2,12 @@
 #include <string>
 using namespace std;
 
-//2021111362 Á¤º¸º¸È£ÇÐ°ú Áö½Â¿¬
 int main() {
 	string phonenum;
-	cout << "ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ½Ã¿À(¿¹. 010-1234-5678) : ";
+	cout << "ì „í™”ë²ˆí˜¸ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤(ì˜ˆ. 010-1234-5678) : ";
 	cin >> phonenum;
 	if (size(phonenum) == 13) {
-		cout << "ÇÚµåÆù ¹øÈ£ÀÔ´Ï´Ù : ";
+		cout << "í•¸ë“œí° ë²ˆí˜¸ìž…ë‹ˆë‹¤ : ";
 	}
 	int startindex = 0;
 	string f = "-";
